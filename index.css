@@ -1,0 +1,257 @@
+
+
+
+.p1{
+    text-align: center;
+    font-size: 37px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    margin-top: 140px;
+    
+}
+.image1 {
+    display: flex;
+    justify-content: space-between;
+}
+.image1 {
+    background-color: rgb(9, 117, 9);
+    padding: 13px;
+    text-align: center;
+    height: 100px;
+}
+.pilar img {
+    float: left;
+    margin-right: 20px;
+    
+}
+.foto {
+
+}
+
+
+.titulo {
+    font-family: monospace;
+    font-size: 33px;
+    background-color: green;
+    border: 5px solid;
+}
+.titulo:hover{
+   font-size: 39px;
+   transition-duration: 1s;
+   height: auto;
+}
+.p2{
+    font-size: 23px;
+    display: none;
+    font-family: monospace;
+    height: 15px;
+    
+}
+.titulo:hover +.p2{
+    display: block;
+    transition: 2s;
+    height: 20px;
+    
+
+}
+
+
+body {
+    background-color: rgb(180, 245, 180);
+}
+.titulo2 {
+    font-family: monospace;
+    font-size: 33px;
+    background-color: green;
+    border: 5px solid;
+}
+
+.titulo2:hover{
+    font-size: 39px;
+    transition-duration: 1s;
+}
+.p3{
+    font-size: 23px;
+    display: none;
+    font-family: monospace;
+    height: 15px;
+}
+.titulo2:hover +.p3{
+    display: block;
+    transform-origin: 1s;
+}
+.titulo3 {
+    font-family: monospace;
+    font-size: 33px;
+    background-color: green;
+    border: 5px solid;
+}
+.titulo3:hover{
+    font-size: 39px;
+    transition-duration: 1s;
+}
+.p4{
+    font-size: 23px;
+    display: none;
+    font-family: monospace;
+    height: 15px;
+}
+.titulo3:hover +.p4{
+    display: block;
+    transform-origin: 1s;
+}
+.titulo, .titulo2, .titulo3, .titulo4 {
+    flex-direction: column;
+}
+.foto{
+    border: 9px solid;
+}
+.titulo4 {
+    font-family: monospace;
+    font-size: 33px;
+    background-color: green;
+    border: 5px solid;
+}
+.titulo4:hover{
+    font-size: 39px;
+    transition-duration: 1s;
+}
+.p5{
+    font-size: 23px;
+    display: none;
+    font-family: monospace;
+    height: 10px;
+}
+.titulo4:hover +.p5{
+    display: block;
+    transform-origin: 1s;
+}
+.image2 {
+    text-align: center;
+    margin-top: 230px;    
+}
+.image2:hover{
+    
+}
+.br{
+    display: none;
+    
+}
+.text {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    background-color: rgb(9, 117, 9);
+    padding: 20px;
+}
+.titulo4:hover +.br{
+    display: none;
+
+
+}
+    .saudep1{
+        font-family: sans-serif;
+        font-size: 35px;
+        border: 5px solid ;
+    
+        
+    }
+    
+    .faixa {
+        width: 100%;
+        height: 50px;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center ;
+
+    }
+    
+    .text {
+        font-size: 40px;
+        margin-top: 70px ;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    
+    .fotoss{
+        display: flex;
+        flex-direction: row;
+      
+       justify-content: space-around;   
+       margin-top: 1px ;  
+    }
+    .listas{  
+        font-size: 40px;
+        display: flex;
+       justify-content: space-around;
+       position: relative;
+       font-family: Arial, Helvetica, sans-serif;
+    }
+    .lstefotos{
+        position: relative;
+        text-align: center;
+    }
+    .all{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: 20px;
+    }
+
+ .listas24{
+
+margin-right: 12px;
+
+ }
+.listas26{
+    margin-top: 20px;
+}
+
+.listas25{
+    margin-top: 20px;
+    margin-left:
+}
+
+
+    .fotos22{
+        display: flex;
+        flex-direction: row;
+      
+       justify-content: space-around;   
+       margin-top: 1px ; 
+       border-radius: 50%;
+    }
+
+    
+    .listas11{
+        font-size: 40px;
+        display: flex;
+       justify-content: space-around;
+       position: relative;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    }
+    
+    .lst2fotos{
+        position: relative;
+        text-align: center;
+    }
+    .all2{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;   
+    font-size: 20px;
+        
+    }
+    
+   
+   
+
+   .textomain{
+    color: green;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+       text-align: center;   
+   }
+
